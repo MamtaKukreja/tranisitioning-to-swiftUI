@@ -47,6 +47,6 @@ struct LeadCellView: View {
 
 struct LeadCellView_Previews: PreviewProvider {
     static var previews: some View {
-        LeadCellView()
+        LeadCellView().previewLayout(.fixed(width: 375, height: 160))
     }
 }
